@@ -2,7 +2,7 @@ import * as React from "react"
 
 const pageStyles = {
   color: "#232129",
-  padding: 96,
+  padding: '96px 20px',
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 const headingStyles = {
@@ -16,6 +16,8 @@ const headingAccentStyles = {
 const listStyles = {
   marginBottom: 96,
   paddingLeft: 0,
+  listStyle: 'none',
+  textAlign: 'center',
 }
 const listItemStyles = {
   fontWeight: 300,
@@ -44,19 +46,16 @@ const links = [
     text: "Number Puzzle",
     url: "https://xincici-puzzle.netlify.app/",
     description: "A number puzzle game, feel free to play with it.",
-    color: "#E95800",
   },
   {
     text: "Click Game",
     url: "https://xincici-clickgame.netlify.app/",
     description: "A easy number click game.",
-    color: "#E95800",
   },
   {
     text: "Guess Number",
     url: "https://xincici-1a2b.netlify.app/",
-    description: "A guess number game, also called 1a2b",
-    color: "#E95800",
+    description: "A guess number game, also called 1a2b.",
   },
 ]
 
@@ -64,15 +63,15 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <h1 style={headingStyles}>
-        <span style={headingAccentStyles}>🎉🎉 xincici 🎉🎉</span>
+        <span style={headingAccentStyles}>xincici games</span>
       </h1>
       <ul style={listStyles}>
         {links.map(link => (
-          <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
+          <li key={link.url} style={{ ...listItemStyles }}>
             <span>
               <a
                 style={linkStyle}
-                href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
+                href={`${link.url}`}
               >
                 {link.text}
               </a>
