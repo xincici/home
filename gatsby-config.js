@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `xincic gatsby site`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: 'xincici games',
+    siteUrl: 'https://xincici.gatsbyjs.io'
   },
   plugins: [{
     resolve: 'gatsby-plugin-manifest',

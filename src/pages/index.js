@@ -1,9 +1,9 @@
-import * as React from "react"
+import * as React from 'react'
 
 const pageStyles = {
-  color: "#232129",
+  color: '#232129',
   padding: '96px 20px',
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  fontFamily: '-apple-system, Roboto, sans-serif, serif',
 }
 const headingStyles = {
   marginTop: 0,
@@ -11,7 +11,7 @@ const headingStyles = {
   textAlign: 'center'
 }
 const headingAccentStyles = {
-  color: "#663399",
+  color: '#663399',
 }
 const listStyles = {
   marginBottom: 96,
@@ -23,18 +23,18 @@ const listItemStyles = {
   fontWeight: 300,
   fontSize: 24,
   maxWidth: 560,
-  marginBottom: 30,
+  margin: '0 auto 30px',
 }
 
 const linkStyle = {
-  color: "#8954A8",
-  fontWeight: "bold",
+  color: '#8954A8',
+  fontWeight: 'bold',
   fontSize: 16,
-  verticalAlign: "5%",
+  verticalAlign: '5%',
 }
 
 const descriptionStyle = {
-  color: "#232129",
+  color: '#232129',
   fontSize: 14,
   marginTop: 10,
   marginBottom: 0,
@@ -43,19 +43,19 @@ const descriptionStyle = {
 
 const links = [
   {
-    text: "Number Puzzle",
-    url: "https://xincici-puzzle.netlify.app/",
-    description: "A number puzzle game, feel free to play with it.",
+    text: 'Number Puzzle',
+    url: 'https://xincici-puzzle.netlify.app/',
+    description: 'A number puzzle game, feel free to play with it.',
   },
   {
-    text: "Click Game",
-    url: "https://xincici-clickgame.netlify.app/",
-    description: "A easy number click game.",
+    text: 'Click Game',
+    url: 'https://xincici-clickgame.netlify.app/',
+    description: 'A easy number click game.',
   },
   {
-    text: "Guess Number",
-    url: "https://xincici-1a2b.netlify.app/",
-    description: "A guess number game, also called 1a2b.",
+    text: 'Guess Number',
+    url: 'https://xincici-1a2b.netlify.app/',
+    description: 'A guess number game, also called 1a2b.',
   },
 ]
 
