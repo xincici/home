@@ -50,12 +50,17 @@ const links = [
   {
     text: 'Click Game',
     url: 'https://xincici-clickgame.netlify.app/',
-    description: 'A easy number click game.',
+    description: 'An easy number click game.',
   },
   {
     text: 'Guess Number',
     url: 'https://xincici-1a2b.netlify.app/',
     description: 'A guess number game, also called 1a2b.',
+  },
+  {
+    text: 'Poker Game',
+    url: 'https://xincici-poker.netlify.app/',
+    description: 'A poker game, trust me, it is fun.',
   },
 ]
 
